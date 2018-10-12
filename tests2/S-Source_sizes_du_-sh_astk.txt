@@ -1,0 +1,69 @@
+649K	4.1.tar.gz
+5.5K	_AI_list
+512	Bookmark_Saver_.txt
+5.7M	C++ - Boost Libraries
+9.6M	c++ grammar
+26M	cint
+1.4M	cint-5.1.4-src.tar.gz
+1.5M	cint5.15.tar.gz
+1.8M	cint-interactive-iface
+54M	cppgrammar
+768K	cppgrammar.zip
+1.8M	cppp.1.86.dist
+48M	decompiler_all-2010-06-22_05;01.tgz
+4.2M	Delphi
+10K	design-N-art-works
+447M	Experimental_AI
+15K	fr_yacc.y
+1.9M	FSlib_BU-2010-06-23_04;04.tgz
+550K	iburg
+142K	iburg.tar.gz
+9.3M	_InstallerCreation
+358K	Java-progs
+1.0K	keygen_GUI.exe.lnk
+131K	koffice.tar.gz
+850K	kscript
+13M	lcc-4.1
+6.3M	libLALR1_refactoring
+326M	Lib-windowing
+41M	LingvaPonto
+2.5K	makefile.txt
+21M	misc-Research
+2.8M	_Net
+3.5M	net-firewalling
+45M	net-util
+39M	NuMega SoftICE Driver Suite
+1.1M	Perl_
+389K	piece
+951K	PortAccess
+19K	_Projects and Dependencies-'050619.xls
+512	Projects (SoftDev).xls.lnk
+797K	PROPIS32.ARJ
+30K	prototyper-test
+23M	Py
+9.2M	PyDiskBrowser
+626K	pyunitgui
+189M	RawDisk1,2_BU-2010-06-22T04-47.zip
+91M	reactos2001+
+3.7M	repository_
+17M	Reversing
+34M	Source_helpers_
+1.5M	STLport-4.6.1.tar.gz
+153M	test
+94K	Tools
+6.5K	_Tools_WebDev
+1.2M	TP6SRC
+238K	TP6SRC.RAR
+41K	_tSubmit Info
+274M	util
+512	util.lnk
+15M	vc-samples
+512	WINUSER.H.lnk
+154M	work
+512	WTL3.1_Include.lnk
+15M	wxWinWizInstall
+37M	Zashita_BU-2010-06-22_05;13.tgz
+360K	z_Electronics
+448K	z_misc_Tools (old)
+
+Total: 2.1G
