@@ -36,9 +36,10 @@ class TreeCtrlPanel(wx.Panel):
 
 	  isz = (16,16)
 	  il = wx.ImageList(isz[0], isz[1])
-	  self.folderIdx     = il.Add(wx.ArtProvider_GetBitmap(wx.ART_FOLDER,      wx.ART_OTHER, isz))
-	  self.folderOpenIdx = il.Add(wx.ArtProvider_GetBitmap(wx.ART_FILE_OPEN,   wx.ART_OTHER, isz))
-	  self.fileIdx       = il.Add(wx.ArtProvider_GetBitmap(wx.ART_REPORT_VIEW, wx.ART_OTHER, isz))
+	  # wx.ArtProvider_GetBitmap(wx.ART_FOLDER, wx.ART_OTHER, isz) -> wx.ArtProvider.GetBitmap()/3
+	  self.folderIdx     = il.Add(wx.ArtProvider.GetBitmap(wx.ART_FOLDER,      wx.ART_OTHER, isz))
+	  self.folderOpenIdx = il.Add(wx.ArtProvider.GetBitmap(wx.ART_FILE_OPEN,   wx.ART_OTHER, isz))
+	  self.fileIdx       = il.Add(wx.ArtProvider.GetBitmap(wx.ART_REPORT_VIEW, wx.ART_OTHER, isz))
 	  #self.fileIdx  = self.il.Add(images.getFile1Bitmap())
 	  #self.smileidx = self.il.Add(images.getSmilesBitmap())
 	  
@@ -60,7 +61,7 @@ class TreeCtrlPanel(wx.Panel):
 	  wx.EVT_RIGHT_DOWN(self.tree, self.OnRightClick)
 	  wx.EVT_RIGHT_UP(self.tree, self.OnRightUp)
 	  
-	  wx.EVT_COMMAND(self, 103,103, self.OnFileOpened)
+	  #?? wx.EVT_COMMAND(self, 103,103, self.OnFileOpened) # Newer wxWidgets has no EVT_COMMAND
 	  # load default tree
           if filename!="":
 	    self.reload_tree(filename) 
@@ -173,7 +174,7 @@ class TreeCtrlPanel(wx.Panel):
 
 
 	def OnSize(self, event):
-	  w,h = self.GetClientSizeTuple()
+	  w,h = self.GetClientSize()
 	  self.tree.SetDimensions(0, 0, w, h)
 
 

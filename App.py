@@ -67,7 +67,7 @@ class App(wx.App):
          "ls -laR files (*.lar)|*.lar|" \
          "All files (*.*)|*.*"
         dlg = wx.FileDialog(self.frame, "Choose a file", os.getcwd(), "", wildcard,
-         wx.OPEN )  #| wx.MULTIPLE |wx.CHANGE_DIR
+         wx.FD_OPEN | wx.FD_FILE_MUST_EXIST)
         #log= self.window.log
         if dlg.ShowModal() == wx.ID_OK:
             paths = dlg.GetPaths()

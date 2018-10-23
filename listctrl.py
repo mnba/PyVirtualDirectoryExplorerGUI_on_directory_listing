@@ -82,15 +82,16 @@ class ListCtrlPanel(wx.Panel, ColumnSorterMixin):
 		    info.m_image = -1
 		    info.m_format = 0
 		    info.m_text = "Filename"
-		    self.list.InsertColumnInfo(0, info)
+		    #self.list.InsertColumnInfo(0, info) #older wxwidgets
+		    self.list.InsertColumn(0, info)
 
 		    #info.m_format = wx.LIST_FORMAT_RIGHT
 		    info.m_text = "Attr"
-		    self.list.InsertColumnInfo(1, info)
+		    self.list.InsertColumn(1, info)
 
 		    info.m_format = 0
 		    info.m_text = "Size"
-		    self.list.InsertColumnInfo(2, info)
+		    self.list.InsertColumn(2, info)
 
 		"""
 		# real populate list
@@ -269,7 +270,7 @@ class ListCtrlPanel(wx.Panel, ColumnSorterMixin):
 		self.list.EditLabel(self.currentItem)
 
 	def OnSize(self, event):
-		w,h = self.GetClientSizeTuple()
+		w,h = self.GetClientSize()
 		self.list.SetDimensions(0, 0, w, h)
 
 
