@@ -31,6 +31,6 @@ ls -laR > ../CTdisk_laR.txt
 ## How to Run it
 From command line simply run: `./App.py`
 Other option is to run with listing-file as program argument:
-```
+```shell
 ./App.py  <your-dir-s-or-ls-laLR-listing.txt>
 ```
