@@ -1,5 +1,6 @@
 ## VirtualDirectoryExplorer (Python) on `ls` or `dir` listing
-This is **Virtual Directory Explorer app** (simple app), written with Python2 + wxWidgets.
+This is **Virtual Directory Explorer** Desktop app or utility, written with *Python2* + *wxWidgets*.
+It is a **File(*) Explorer / browser / navigator for directory listing text files.**
 
 * Takes for input recursive directory listing from either:
   * Linux/Unix/Macos '**ls -laR**' command output or 
@@ -11,7 +12,7 @@ It can be considered as **_Directory structure snapshot browser or viewer_**.
 Even entire disk filesystem structure can be examined.
 
 ### Supported Operating systems: Windows, Macos, Linux
-This software supports all major desktop Operating Systems: Windows, Macos, Linux. Only required support is for Python 2.7 and wxWidgets 2.9+.
+This utility supports all major desktop Operating Systems: Windows, Macos, Linux. Only required support is for Python 2.7 and wxWidgets 2.9+.
 
 ### Designed-in Limitations
 
