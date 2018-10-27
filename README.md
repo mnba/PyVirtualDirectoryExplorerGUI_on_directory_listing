@@ -1,4 +1,4 @@
-## VirtualDirectoryExplorer on `ls` or `dir` listing
+## VirtualDirectoryExplorer (Python) on `ls` or `dir` listing
 This is **Virtual Directory Explorer app** (simple app), written with Python2 + wxWidgets.
 
 * Takes for input recursive directory listing from either:
