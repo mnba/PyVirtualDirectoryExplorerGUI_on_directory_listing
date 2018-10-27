@@ -1,5 +1,6 @@
 ## VirtualDirectoryExplorer (Python) on `ls` or `dir` listing
 This is **Virtual Directory Explorer** Desktop app or utility, written with *Python2* + *wxWidgets*.
+ 
 It is a **File(*) Explorer / browser / navigator for directory listing text files.**
 
 * Takes for input recursive directory listing from either:
