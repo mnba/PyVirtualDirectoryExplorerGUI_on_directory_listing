@@ -45,5 +45,9 @@ Another option is to run at once with listing-file as argument:
 Thanks!
 MA: This comments trick taken from: Comments in Markdown (syntax) - Stack Overflow
 https://stackoverflow.com/questions/4823468/comments-in-markdown
+add screenshot to READMEs in github repository, How to? (markdown) - Stack Overflow
+https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository
+Markdown Cheatsheet · adam-p/markdown Wiki
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 -->
 [//]: # (Another comment, most invisible and most platform independent, ditto)
