@@ -20,4 +20,5 @@ Since input does not contain other info besides directory/filesystem structure a
 This is in the first head *directory **structure** snapshot browser*. 
 
 ## Screenshots
-![Screenshot of version 1.0 in Linux](/screenshots/screenshot-linux1.0s1.png?raw=true "View in Linux")
+Screenshot of browser for **_tests/zCTdisk_laR.txt_** file: 
+![Screenshot of v1.0 (Linux)](/screenshots/screenshot-linux1.0s1.png?raw=true "Screenshot of v1.0 (Linux)")
