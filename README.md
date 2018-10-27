@@ -2,13 +2,16 @@
 This is **Virtual Directory Explorer app** (simple app), written with Python2 + wxWidgets.
 
 * Takes for input recursive directory listing from either:
-.* Linux/Unix 'ls -laR' command output or 
-.* Windows 'dir /s' command output and 
+ * Linux/Unix 'ls -laR' command output or 
+ * Windows 'dir /s' command output and 
 * Provides GUI browser for it, the graphical interface to browse/explore the given virtual directory.
 
 It can be considered as **_Directory structure snapshot viewer / browser_**.
 
 Even entire disk filesystem structure can be examined.
+
+###Supported Operating systems: Windows, Macos, Linux
+This software supports all major Desktop Operating systems. Only support for Python 2.7 and wxWidgets 2.9+ is required.
 
 ### Designed-in Limitations
 
