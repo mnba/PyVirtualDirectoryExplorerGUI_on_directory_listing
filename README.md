@@ -11,7 +11,7 @@ It can be considered as **_Directory structure snapshot browser or viewer_**.
 Even entire disk filesystem structure can be examined.
 
 ### Supported Operating systems: Windows, Macos, Linux
-This software supports all major Desktop Operating systems. Only support for Python 2.7 and wxWidgets 2.9+ is required.
+This software supports all major desktop Operating Systems: Windows, Macos, Linux. Only required support is for Python 2.7 and wxWidgets 2.9+.
 
 ### Designed-in Limitations
 
