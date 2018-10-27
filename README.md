@@ -4,7 +4,7 @@ This is **Virtual Directory Explorer** Desktop app or utility, written with *Pyt
 It is a **File(*) Explorer / browser / navigator for directory listing text files.**
 
 * Takes for input recursive directory listing from either:
-  * Linux/Unix/Macos '**ls -laR**' command output or 
+  * Linux/Macos/Unix '**ls -laR**' command output or 
   * Windows '**dir /s**' command output and 
 * Provides GUI browser for it, the graphical interface to browse/explore the given virtual directory.
 
