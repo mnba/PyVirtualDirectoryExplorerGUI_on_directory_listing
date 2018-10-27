@@ -3,15 +3,13 @@ This is Virtual Directory Explorer app (simple app), written with Python2 + wxWi
 
 Takes for input recursive directory listing from either:
 
-1.1) Linux/Unix `ls -laR' command output 
-or 
-1.2) Windows `dir /s' command output 
-and 
-2) Provides GUI browser for it, the graphical interface to browse/explore the given virtual directory.
+#) Linux/Unix 'ls -laR' command output or 
+#) Windows 'dir /s' command output and 
+#) Provides GUI browser for it, the graphical interface to browse/explore the given virtual directory.
 
-It can be considered as directory structure snapshot viewer / browser.
+It can be considered as *Directory structure snapshot viewer / browser*.
 
-Even entire filesystem structure of the disk can be provided as an input.
+Even entire disk filesystem structure can be examined.
 
 ### Designed-in Limitations
 
