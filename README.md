@@ -1,7 +1,9 @@
-## VirtualDirectoryExplorer (Python) on `ls` or `dir` listing
-This is **Virtual Directory Explorer** Desktop app or utility, written with *Python2* + *wxWidgets*.
+## Virtual Directory Explorer GUI (Python) on `ls` or `dir` directory recursive listing
+This is **Virtual Directory Explorer** Desktop GUI utility app, written with *Python2* + *wxWidgets*.
  
 It is a **File(*) Explorer / browser / navigator for directory listing text files.**
+
+**Allows you to save directory structure once, and browse it later in any other time or any other machine.**
 
 * Takes for input recursive directory listing from either:
   * Linux/Macos/Unix '**ls -laR**' command output or 
@@ -38,3 +40,10 @@ Another option is to run at once with listing-file as argument:
 ```shell
 ./App.py  your-dir-s-or-ls-laLR-listing.txt
 ```
+<!---
+## Please, report problems in the issues
+Thanks!
+MA: This comments trick taken from: Comments in Markdown (syntax) - Stack Overflow
+https://stackoverflow.com/questions/4823468/comments-in-markdown
+-->
+[//]: # (Another comment, most invisible and most platform independent, ditto)
